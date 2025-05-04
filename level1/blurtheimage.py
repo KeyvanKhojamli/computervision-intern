@@ -4,11 +4,11 @@ import cv2
 img = cv2.imread('level1\example.jpg')
 
 #blur the image using Gaussian blur
-img_Gblur = cv2.GaussianBlur(img, (15, 15), 0)
+img_Gblur = cv2.GaussianBlur(img, (3, 3), 0)
 #blur the image using median blur
-img_Mblur = cv2.medianBlur(img, 15)
+img_Mblur = cv2.medianBlur(img, 5)
 #blur the image average blur
-img_Ablur = cv2.blur(img, (15, 15))
+img_Ablur = cv2.blur(img, (20, 20))
 
 #display the image and blur images 
 cv2.imshow('image', img)
