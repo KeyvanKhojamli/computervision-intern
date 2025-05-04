@@ -14,5 +14,5 @@ cv2.imshow('gray image', img_gray)
 #save the gray scale image
 cv2.imwrite('level1\example_gray.jpg', img_gray)
 
-# Wait for a key press and close the window
+# Wait for a key press and close the windows
 cv2.waitKey(0)  
